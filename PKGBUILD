@@ -6,9 +6,9 @@ arch=('any')
 url="https://github.com/geekyved/news-aur"
 license=('MIT')
 depends=('python')
-source=('news.py')
-sha256sums=('55c3b1b1cac7bdce9639b64fb28bfe832622c7aa8bd426031eea21493276a485')
+source=("https://github.com/GeekyVed/news-aur/archive/refs/tags/v${pkgver}.tar.gz")
+sha256sums=('25ee518c92dcd1964846e20375b44df6b0c12b323625d38d860897a480464c7b')
     
 package() {
-    install -Dm755 "${srcdir}/news.py" "${pkgdir}/usr/bin/news"
+    install -Dm755 "${srcdir}/news-aur-${pkgver}/news.py" "${pkgdir}/usr/bin/news"
 }

@@ -1,4 +1,4 @@
-# Maintainer: geekyved <testsvedant@gmail.com>
+# Maintainer: Vedant <testsvedant@gmail.com>
 
 pkgname=news
 pkgver=1.0

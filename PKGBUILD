@@ -1,3 +1,5 @@
+# Maintainer: geekyved <testsvedant@gmail.com>
+
 pkgname=news
 pkgver=1.0
 pkgrel=1
